@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>  
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="stylelogin.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>--> 
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+              <a href="index.html">Puskesmas<span>Sejahtera</span></a>
+            </div>
+            <div class="buttons">
+                <a href="loginpasien.html" class="login">Login Pasien</a>
+                <a href="loginstaf.html" class="login">Login Staf</a>
+                <a href="registrasi.html" class="btn">Register</a>
+            </div>
+          </nav>
+        <header>Login Staf Administrasi</header>
+        <form action="loginadmin.php" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="username"><span> Username </span></label>
+                            <input type="text" name="username_admin" id="username_admin" placeholder="Username Akun Staf" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="password"><span> Password </span></label>
+                            <input type="password" name="password_admin" id="password_admin" placeholder="Password Akun Staf" required>
+                        </div> 
+                    </div>
+                    
+                    <br>
+
+                    <div class="buttons">  
+                        <button type="submit" class="buttons">
+                            <span href="menuadmin.html" class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

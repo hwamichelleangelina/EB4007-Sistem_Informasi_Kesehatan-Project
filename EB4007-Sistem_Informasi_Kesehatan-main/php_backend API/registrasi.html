@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styleregistrasi.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Puskesmas<span> Sejahtera</span></a>
+            </div>
+            <div class="buttons">
+                <a href="loginpasien.html" class="login">Login Pasien</a>
+                <a href="loginstaf.html" class="login">Login Staf</a>
+              <a href="registrasi.html" class="btn">Register</a>
+            </div>
+          </nav>
+        <br>
+        <header>Registration</header>
+        </br>
+        <form method="post" action="inputakunpasien.php">
+            <div class="form first">
+                <div class="details personal">
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="nama_lengkap">Nama Lengkap</label>
+                            <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama Lengkap" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="nik">NIK</label>
+                            <input  type="text"  maxlength="16" name="nik" id="nik" placeholder="Nomor Induk Kependudukan" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="tanggal_lahir">Tanggal Lahir</label>
+                            <input type="date" name="tanggal_lahir" id="tanggal_lahir" placeholder="Tanggal Lahir" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="usia">Usia</label>
+                            <input type="number" name="usia" id="usia" placeholder="Usia" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="tempat_tinggal">Tempat Tinggal</label>
+                            <input type="text" name="tempat_tinggal" id="tempat_tinggal" placeholder="Tempat Tinggal Singkat" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="bpjs">Kepemilikan BPJS</label>
+                            <select name="bpjs" id="bpjs">
+                                <option value="Ya">Ya</option>
+                                <option value="Tidak">Tidak</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="jenis_kelamin">Jenis Kelamin</label>
+                            <select name="jenis_kelamin" id="jenis_kelamin">
+                                <option value="Pria">Pria</option>
+                                <option value="Wanita">Wanita</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="golongan_darah">Jenis Kelamin</label>
+                            <select name="golongan_darah" id="golongan_darah">
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="AB">AB</option>
+                                <option value="O">O</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="pekerjaan">Pekerjaan</label>
+                            <input type="text" name="pekerjaan" id="pekerjaan" placeholder="Pekerjaan" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="nomor_telepon">Nomor Telepon</label>
+                            <input  type="text" name="nomor_telepon" id="nomor_telepon" placeholder="Nomor Telepon" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="Username Akun" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Password Akun" required>
+                        </div>    
+                        <br>                    
+
+                    </div>
+
+                        <button type="submit" class="buttons">
+                            <span href="index.html" class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--<script src="script.js"></script>-->
+
+</body>
+</html>

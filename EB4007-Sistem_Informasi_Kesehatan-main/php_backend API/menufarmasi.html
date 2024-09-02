@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!---Coding By CoderGirl!--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="stylemenu.css">
+   <!-- Google Fonts Link -->
+   <link
+   href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap"
+   rel="stylesheet"
+ />
+ <!-- Line Awesome CDN Link -->
+ <link
+   rel="stylesheet"
+   href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+ />
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="index.html">Puskesmas<span> Sejahtera</span></a>
+      </div>
+      <div class="buttons">
+        <a href="logout.php" class="login">Logout</a>
+      </div>
+    </nav>
+    <div class="main-container">
+        <h2>Pilih Menu</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="radio" checked />
+            <span class="radio-btn"  onclick="location.href='accountdetailfarmasi.php'"
+              ><i class="las la-check"></i>
+              <div class="hobbies-icon">
+                <i class="las la-user"></i>
+                <h3>Lihat Akun</h3>
+              </div>
+            </span>
+          </label>
+        </label>
+        <label class="custom-radio">
+          <input type="radio" name="radio" checked />
+          <span class="radio-btn"  onclick="location.href='showdatapasienfarmasi.php'"
+            ><i class="las la-check"></i>
+            <div class="hobbies-icon">
+              <i class="las la-users"></i>
+              <h3>Cek Data Pasien</h3>
+            </div>
+          </span>
+        </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio" />
+            <span class="radio-btn" onclick="location.href='uipersediaanobat.php'"
+              ><i class="las la-check"></i>
+              <div class="hobbies-icon">
+                <i class="las la-briefcase-medical"></i>
+                <h3>Update Persediaan Obat</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio" />
+            <span class="radio-btn" onclick="location.href='reviewpemeriksaanfarmasi.php'"
+              ><i class="las la-check"></i>
+              <div class="hobbies-icon">
+                <i class="las la-file-medical"></i>
+                <h3>Review Kebutuhan Obat</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio" />
+            <span class="radio-btn" onclick="location.href='indexambilobat.php'"
+              ><i class="las la-check"></i>
+              <div class="hobbies-icon">
+                <i class="las la-file-medical"></i>
+                <h3>Pemberian Obat</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="radio" />
+            <span class="radio-btn" onclick="location.href='showdataobat.php'"
+              ><i class="las la-check"></i>
+              <div class="hobbies-icon">
+                <i class="las la-laptop-medical"></i>
+                <h3>Cek Stok Obat</h3>
+              </div>
+            </span>
+          </label>
+          
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>
+
+ 
