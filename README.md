@@ -119,15 +119,15 @@ Tugas besar mata kuliah EB4007 diminta untuk membuat suatu _website_ puskesmas y
 <sub> untuk memberikan desain pada halaman-halaman menu </sub>
 + styleregistrasi.css
 <sub> untuk memberikan desain pada halaman registrasi </sub>
-
-## Contact
-
-For any questions or feedback, feel free to reach out:
-- Email: [zmichelleangelina@gmail.com](zmichelleangelina@gmail.com)
-- LinkedIn: [Michelle Angelina](https://www.linkedin.com/in/mchelleangelina/)
 + styleshow.css
 <sub> untuk memberikan desain pada halaman data akun pasien </sub>
 + uipersediaanobat.php
 <sub> untuk untuk menampilkan UI halaman data persediaan obat yang ada di puskesmas </sub>
 + websitepuskemas.sql
 <sub> untuk membuat _database website_ puskesmas di phpmyAdmin </sub>
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+- Email: [zmichelleangelina@gmail.com](zmichelleangelina@gmail.com)
+- LinkedIn: [Michelle Angelina](https://www.linkedin.com/in/mchelleangelina/)
